@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Articles - Théâtre & Moi
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-bar">
+            <p class="logo" role="heading" aria-level="1">
+                Théâtre & Moi
+            </p>
+            <button class="burger" aria-label="Menu">
+                ☰
+            </button>
+            </div>
+            <nav class="menu-simule" aria-label="Menu principal">
+                <ul>
+                    <li>
+                        <a href="accueil.html">
+                            Accueil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="articles.html">
+                            Articles
+                        </a>
+                    </li>
+                    <li>
+                        <a href="a-propos.html">
+                            À propos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="img/rideau.jpg" alt="Rideau rouge de théâtre fermé" />
+                    <div class="hero-overlay"></div>
+                    <h2 class="hero-title">
+                        Le théâtre, du texte à la scène
+                    </h2>
+                </div>
+            </section>
+            <section class="explorer-section">
+                <h2 class="explorer-title">
+                    Explorer par thème
+                </h2>
+                <div class="explorer-filtres">
+                    <button class="explorer-btn">
+                        Conseils
+                    </button>
+                    <button class="explorer-btn">
+                        Interview
+                    </button>
+                    <button class="explorer-btn actif">
+                        Critique
+                    </button>
+                </div>
+            </section>
+            <section class="articles-section">
+                <article class="card">
+                    <div class="card-image-container">
+                        <img src="img/article4.jpg" alt="Scène de Dom Juan moderne" class="card-image" />
+                        <span class="card-category">
+                            Critique
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            « Dom Juan » de Molière
+                        </h3>
+                        <p class="card-text">
+                            Une relecture audacieuse et contemporaine du texte de Molière...
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-date">
+                                16/04/2025
+                            </span>
+                            <a href="article-dom-juan.html" class="card-button">
+                                LIRE
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image-container">
+                        <img src="img/article5.jpg" alt="Actrices sur scène dans les Trois Soeurs" class="card-image" />
+                        <span class="card-category">
+                            Critique
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            « Les Trois Soeurs » de Tchekhov
+                        </h3>
+                        <p class="card-text">
+                            Une mise en scène lente et habitée, où chaque silence devient parole...
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-date">
+                                09/03/2025
+                            </span>
+                            <a href="#" class="card-button">
+                                LIRE
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <article class="card">
+                    <div class="card-image-container">
+                        <img src="img/article6.jpg" alt="Lumière crue sur Roberto Zucco" class="card-image" />
+                        <span class="card-category">
+                            Critique
+                        </span>
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            « Roberto Zucco » de Koltès
+                        </h3>
+                        <p class="card-text">
+                            Un choc scénique brut, entre poésie noire et tension animale...
+                        </p>
+                        <div class="card-footer">
+                            <span class="card-date">
+                                17/01/2025
+                            </span>
+                            <a href="#" class="card-button">
+                                LIRE
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <section class="newsletter-section">
+                <h2 class="newsletter-title">
+                    Abonnez-vous à la lettre du théâtre
+                </h2>
+                <p class="newsletter-subtitle">
+                    Un mail par mois
+                </p>
+                <form class="newsletter-form">
+                <div class="newsletter-wrapper">
+                <input type="email" id="email" placeholder="Votre adresse email" required />
+                <button type="submit">
+                    S'abonner
+                </button>
+                </div>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer-copy">&copy;
+                2025 Théâtre & Moi - Tous droits réservés
+            </p>
+            <p class="footer-links">
+                Mentions légales · Accessibilité
+            </p>
+        </footer>
+    </body>
+</html>

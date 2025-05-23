@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Dom Juan - Théâtre & Moi
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-bar">
+                <p class="logo" role="heading" aria-level="1">
+                    Théâtre & Moi
+                </p>
+                <button class="burger" aria-label="Menu">
+                  ☰  
+                </button>
+            </div>
+            <nav class="menu-simule" aria-label="Menu principal">
+                <ul>
+                    <li>
+                        <a href="accueil.html">
+                            Accueil
+                        </a>
+                    </li>
+                    <li>
+                        <a href="articles.html">
+                            Articles
+                        </a>
+                    </li>
+                    <li>
+                        <a href="a-propos.html">
+                            À propos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <div class="hero-image">
+                    <img src="img/rideau.jpg" alt="Rideau rouge de théâtre fermé" />
+                    <div class="hero-overlay"></div>
+                    <h2 class="hero-title">
+                        Le théâtre, du texte à la scène
+                    </h2>
+                </div>
+            </section>
+            <section class="explorer-section">
+                <h2 class="explorer-title">
+                    Explorer par thème
+                </h2>
+                <div class="explorer-filtres">
+                    <button class="explorer-btn">
+                        Conseils
+                    </button>
+                    <button class="explorer-btn">
+                        Interview
+                    </button>
+                    <button class="explorer-btn actif">
+                        Critique
+                    </button>
+                </div>
+            </section>
+            <article class="article-detail">
+                <h2 class="article-detail-title">
+                    « Dom Juan » de Molière – Lecture contemporaine
+                </h2>
+                <img src="img/article4.jpg" alt="Scène épurée de Dom Juan avec une actrice sous projecteur" class="article-detail-image" />
+                <div class="article-detail-content">
+                    <p>Sur cette scène nue, le verbe de Molière résonne autrement.</p>
+                    <p>Dom Juan n'est plus un séducteur flamboyant, mais un homme seul, cynique, presque vidé de sens.</p>
+                    <p>Le choix d'une scénographie minimaliste force l'attention sur les corps et les silences. Sganarelle devient le miroir fragile d'un maître qu'il ne comprend plus.</p>
+                    <p>Le texte, coupé de ses ornements classiques, devient moderne par sa brutalité. Dom Juan rit encore, mais son rire sonne creux.</p>
+                    <p>Cette lecture contemporaine interroge : et si le véritable scandale aujourd'hui, c'était l'indifférence ?</p>
+                </div>
+            </article>
+            <section class="newsletter-section">
+                <h2 class="newsletter-title">
+                    Abonnez-vous à la lettre du théâtre
+                </h2>
+                <p class="newsletter-subtitle">
+                    Un mail par mois
+                </p>
+                <form class="newsletter-form">
+                <div class="newsletter-wrapper">
+                <input type="email" id="email" placeholder="Votre adresse email" required />
+                <button type="submit">
+                    S'abonner
+                </button>
+                </div>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer-copy">&copy;
+                2025 Théâtre & Moi - Tous droits réservés
+            </p>
+            <p class="footer-links">
+                Mentions légales · Accessibilité
+            </p>
+        </footer>
+    </body>
+</html>
